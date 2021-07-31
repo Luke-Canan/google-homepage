@@ -9,9 +9,33 @@ body {
     margin: 0px;
 }
 
-p:hover {
+p:hover{
     text-decoration: underline;
 }
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a:active {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
 
 .rounded-icon {
     border-radius: 50%;
@@ -20,6 +44,7 @@ p:hover {
 header {
     display: grid;
     grid-template-columns: 140px auto 240px;
+    padding-top: 10px;
 }
 
 .header-item {
