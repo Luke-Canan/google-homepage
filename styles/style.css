@@ -111,6 +111,7 @@ footer {
 
 #center {
     justify-self: center;
+    min-width: 185px;
 }
 
 .shadow:hover {
