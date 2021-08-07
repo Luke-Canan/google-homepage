@@ -1,12 +1,10 @@
 Project Goal:
-- Rebuild Google's homepage
+- Deconstruct and rebuild Google's homepage using HTML and CSS
 
 Skills Gained:
 - Aligning and styling of elements
-- Developer tools
+- Debugging using Chrome DevTools
 - Git workflow
-- Flexbox
-- Protip: use borders
 
-deconstruct an existing web page and rebuild it. 
-how elements get placed on the page and roughly how they get styled and aligned
+Notes:
+- Protip: use borders to visualize elements on page

@@ -8,31 +8,28 @@
     <body>
         <header>
             <div class="header-item">
-                <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header";>About</a>
-                <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+                <p>About</p>
+                <p>Store</p>
             </div>
-            <div>
-                <!--white space-->
-            </div>
+            <div><!--white space--></div>
             <div class="header-item">
-                <a href="https://mail.google.com/mail/&ogbl">Gmail</a>
-                <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
-                <img src="images/apps.png" alt="Google Apps icon">
-                <img src="https://lh3.googleusercontent.com/ogw/ADea4I40vLZG5UH9BFgvIbQ_p0N_-D-v_it4wzLoW-v8=s32-c-mo" alt="Google Account Circle icon" class="rounded-icon">
+                <p>Gmail</p>
+                <p>Images</p>
+                <img src="images/apps.png" class="opacity" alt="Google Apps icon">
+                <button>Sign in</button>
             </div>
         </header>
         <main>
             <img src="images/google-logo.png" id="google-logo" alt="Google Logo"> 
-
-            <div id="search-container">
-                <img src="images/search.png" alt="Google Search icon" class="search-icons">
+            <div id="search-container" class="shadow">
+                <img src="images/search.png" alt="Google Search icon" class="search-icons opacity">
                 <input type="search" id="search-bar">
-                <img src="images/microphone.png" alt="Google Microphone icon" class="search-icons">
+                <img src="images/microphone-color.svg" alt="Google Microphone icon" class="search-icons">
             </div>
 
             <div id="buttons">
-                <p class="grey-button">Google Search</p>
-                <p class="grey-button">I'm Feeling Lucky</p>
+                <p class="grey-button shadow">Google Search</p>
+                <p class="grey-button shadow">I'm Feeling Lucky</p>
             </div>
         </main>
         <footer>
@@ -42,9 +39,10 @@
                 <p>How Search works</p>
             </div>
             <div class="footer-item" id="center">
-                <img alt="Carbon neutral icon" src="images/carbon-neutral-leaf.png">
+                <img src="images/carbon-neutral-leaf.png" id="leaf-icon" alt="Carbon neutral icon">
                 <p class="image-space-text">Carbon neutral since 2007</p>
             </div>
+            <div><!--white space--></div>
             <div class="footer-item">
                 <p>Privacy</p>
                 <p>Terms</p>

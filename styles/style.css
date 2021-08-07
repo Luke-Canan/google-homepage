@@ -9,53 +9,31 @@ body {
     margin: 0px;
 }
 
-p:hover{
+div * {
+    cursor: pointer;
+}
+
+p:hover {
     text-decoration: underline;
-}
-
-a:link{
-    text-decoration: none;
-    color: black;
-}
-
-a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: black;
-}
-
-a:active {
-    text-decoration: underline;
-    color: black;
-}
-
-
-
-
-
-.rounded-icon {
-    border-radius: 50%;
 }
 
 header {
     display: grid;
-    grid-template-columns: 140px auto 240px;
-    padding-top: 10px;
+    grid-template-columns: 90px auto 270px;
+    padding: 10px 25px 0px;
+    color: rgba(0,0,0,0.87);
 }
 
 .header-item {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #google-logo {
+    width: 272px;
     display: block;
-    margin: 200px auto 25px;
+    margin: 58px auto 25px;
 }
 
 #search-container {
@@ -70,6 +48,10 @@ header {
     justify-content: space-around;
 }
 
+input {
+    cursor: text;
+}
+
 #search-bar {
     height: inherit;
     width: 440px;
@@ -80,10 +62,11 @@ header {
 
 .search-icons {
     padding: 15px;
+    height: 20px;
 }
 
 #buttons {
-    margin-top: 20px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
 }
@@ -97,13 +80,27 @@ header {
     margin: 5px;
 }
 
+button {
+    background-color: #1a73e8;
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 11px 27px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2b7de9;
+}
+
 footer {
     display: grid;
-    grid-template-columns: 22% auto 22%;
+    grid-template-columns: 340px auto 120px 220px;
     background-color: #f2f2f2;
     color: #70757a;
     margin-top: auto;
-    height: 55px;
+    height: 47px;
+    padding: 0px 25px;
 }
 
 .footer-item {
@@ -116,10 +113,23 @@ footer {
     justify-self: center;
 }
 
-.grey-button:hover {
+.shadow:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    text-decoration: none;
 }
 
 .image-space-text {
     padding-left: 5px;
+}
+
+#leaf-icon {
+    height: 14px;
+}
+
+.opacity {
+    filter: opacity(0.4);
+}
+
+.rounded-icon {
+    border-radius: 50%;
 }
